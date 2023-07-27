@@ -48,19 +48,19 @@ input[type=submit]:hover {
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
     <label for="fname">First Name (required)</label> 
-    <input type="text" name="firstname" required>
+    <input type="text" name="firstname" placeholder="first name" required>
 
     <label for="lname">Last Name (required)</label>
-    <input type="text" name="lastname" required>
+    <input type="text" name="lastname"  placeholder="last name" required>
     
      <label for="email">Email (required)</label>
-    <input type="text" name="email" required>
+    <input type="email" name="email" placeholder="Email Address">
 
     <label for="message">Message (required)</label>
-    <textarea  name="message" style="height:200px" required></textarea>
+    <textarea  name="message" style="height:200px" placeholder="message" required></textarea>
 
  <label for="CurrentBroadbandSpeeds">Current Broadband Speeds (required)</label>
-    <select  name="current broadband speeds" required>
+    <select  name="current broadband speeds" placeholder="current broadband speeds" required>
     <option>Choose a speed</option>
       <option value="0-5Mpbs">0-5 Mpbs</option>
       <option value="5-15Mpbs">5-15 Mpbs</option>
@@ -70,23 +70,23 @@ input[type=submit]:hover {
     </select>
     
      <label for="location">location (required)</label>
-    <select  name="location" required>
+    <select  name="location" placeholder="location" required>
     <option>Choose a location</option>
       <option value="london">London</option>
       <option value="other">Other</option>
     </select>
     
     <label for="address1">Address 1 (required)</label>
-    <input type="text"  name="address1" required>
+    <input type="text"  name="address1" placeholder="address1" required>
     
     <label for="address2">Address 2</label>
-    <input type="text"name="address2" required>
+    <input type="text"name="address2" placeholder="address2" required>
     
     <label for="city/town">City / Town (required)</label>
-    <input type="text" name="city/town" required>
+    <input type="text" name="city/town" placeholder="city/town" required>
     
      <label for="postcode">Postcode (required)</label>
-    <input type="text"  name="postcode" required>
+    <input type="text"  name="postcode" placeholder="postcode" required>
     
      <button type="submit">Send</button>
   </form>
